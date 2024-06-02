@@ -135,7 +135,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({
         {/* right side */}
         <div className="w-full flex  justify-center  sm:justify-end">
           {/* <img src={ScoreRating} className="min-w-[144px]" alt="svg icon" /> */}
-          <Score rating={15} />
+          <Score rating={85} />
         </div>
       </div>
       <div className="flex  mb-2 mt-4">

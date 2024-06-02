@@ -22,10 +22,11 @@ const Score = ({ rating }: RatingProps) => {
       : borderColorClasses.red;
 
   const hoverColorClasses = {
-    blue: "hover:stroke-blue-300 hover:border-blue-300",
-    green: "hover:stroke-green-300 hover:border-green-300",
-    yellow: "hover:stroke-yellow-300 hover:border-yellow-300",
-    red: "hover:stroke-red-400 hover:border-red-300",
+    blue: "hover:stroke-blue-300 hover:border-blue-300 hover:transition-all",
+    green: "hover:stroke-green-300 hover:border-green-300 hover:transition-all",
+    yellow:
+      "hover:stroke-yellow-300 hover:border-yellow-300 hover:transition-all",
+    red: "hover:stroke-red-400 hover:border-red-300 hover:transition-all",
   };
 
   const hoverColor =
